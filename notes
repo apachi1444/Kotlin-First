@@ -1,0 +1,7 @@
+for variables 
+
+val : only read / var : reassigned and read
+
+types in kotlin are non nullable by default
+
+String? to make it nullable	

@@ -1,0 +1,5 @@
+fun haha() : String = "Hello World" 
+single expression function
+
+kotlin supports string templates 
+" Hello $var "
