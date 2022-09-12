@@ -1,0 +1,15 @@
+single responsability ( the class has only one role )
+
+open for extension closed for modification ( we must the concept of interface ) 
+
+liskov substitution means the derived class should be substituble for their 
+base or their parent class ( if the superclass is Shape and we make a class NoShape which 
+throw an error in the implementation of that super class =>>> it will break the rule )
+
+
+interface segregation  we should not force classes to implement methods they are not 
+allowed to implement them like ( in the shape interface we do the volume and then 
+we have a circle which not depending on the volume => so we must divide large interfaces
+into small ones )
+
+depency inversion 
