@@ -18,10 +18,6 @@ fun main() {
 
     print("this is the message$greetingToPrint")
 
-    fun haha(): String {
-        return "yessine"
-    }
-
     val newArray = arrayOf("Hahaha", "Hahah2")
     println(newArray[0])
 
@@ -37,7 +33,9 @@ fun main() {
 
     println("this is the value of map3 $map3")
 
-    println(nameReassigned)
+    val person = Person("sqdf" , "lksjdf")
+    person.varHaha = "hahahahah"
+    println(person.varHaha)
 }
 
 

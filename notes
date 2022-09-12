@@ -5,3 +5,25 @@ val : only read / var : reassigned and read
 types in kotlin are non nullable by default
 
 String? to make it nullable	
+
+val nickNameToPrint = nickName ?: "no nickname" 
+// ?: called the Elvis operator
+( if nickName is null it will return no nickname otherwise the same value )
+
+internal classes are just visible within the same module
+
+interfaces can have default implementation
+
+property initializers are not allowed in interfaces ( like if you have 
+a string as a var )
+
+class Impl : interface1 , interface 2 
+
+by default classes are final are not inhertited
+
+we must add the key open !!!!!!!!!!!!!!
+
+class subClass : class(){
+}
+
+and the class should contain the key "open"

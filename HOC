@@ -1,0 +1,27 @@
+takes as a param a function or returns a function
+
+fun hahah(myString: String , (String) -> Boolean){
+}
+
+in the main function 
+
+hahah("yessine" , { it.startsWith("Yes" }  )
+
+fun hahah( predicate : ((String)  -> Boolean ) ? ) {
+
+	if ( predicate?.invoke(it) == true  ) {}
+
+}
+
+val predicate : (String) -> Boolean = {
+	it.startsWith("J")
+}
+
+// or 
+
+fun getFunction()  : (String) -> Boolean {
+	return {it.start ... }
+}
+
+// if we have null values in our list
+list.filterNotNull().filter{it.startsWith("j")}.forEach{println(it)}
