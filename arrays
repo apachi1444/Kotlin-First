@@ -1,0 +1,26 @@
+val newArray = arrayOf("haha" , "ahah2")
+newArray. .... 
+	.size ( length)
+	[0] eq of .get(0)
+
+for ( elementInNewArray in newArray ) {
+
+	
+	
+}
+
+
+// the default element in the forEach ( it ) 
+newArray.forEach { 
+	element -> println(element) 
+} 
+
+// we do the curly braces because for each take a function as a parameter
+
+newArray.forEachIndexed {
+	index , element -> println("$element is at index $index")
+}
+
+
+
+

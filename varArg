@@ -1,0 +1,19 @@
+the varArg help us to make the parameter of the function optional
+
+fun ahah(greeting : String , vararg itemsToGreet : String){
+}
+
+fun main(){
+
+	val array = arrayOf("jaja" , "kqjsldf")
+	ahah("Hi" , *array)
+	// the * is for the spread operator
+	
+}
+
+if we want to change the order of parameters in the call of function
+
+ahah(greeting="aha" , greetingThird="klqjsdfklj")
+
+!!!!!!!!!! when we use named arguments syntax the varArg everything should be 
+also named after that
