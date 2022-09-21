@@ -1,0 +1,26 @@
+we don't use the word static in kotlin
+
+we cannot call it in another class ( another file )
+
+class A {
+  companion object {
+    
+      fun printHello(){
+        sout("hey")
+      }
+    
+  }
+
+}
+
+so to make it static and useful in all the packages
+we must use the annoation @JVMStatic
+
+and this annotation is only useful in the object or the companion object
+
+this implements the factory pattern
+we create a function in the companion object 
+
+companion object {
+  fun createObject : A = A()
+}
